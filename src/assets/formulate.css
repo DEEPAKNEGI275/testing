@@ -1,0 +1,86 @@
+.formulate-input .formulate-input-label{
+    font-weight: bold;
+}
+.formulate-input
+.formulate-input-label::after{
+    color: #e32;
+    content: '*';
+    display:inline;
+}
+.formulate-input .formulate-input-element{
+    padding-top: 7px;
+}
+.formulate-input .formulate-input-wrapper{
+    padding-top: 15px;
+}
+.double-wide .formulate-input[data-classification='select'] 
+select {
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    border: 1px solid #d91657ed;
+    width: 125%;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    font-size:1em;
+    
+}
+.double-wide .inner .formulate-input[data-classification='select']
+select{
+    width:210%
+}
+.four-wide .formulate-input[data-classification='text'] input{
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    border: 1px solid #d91657ed;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    width: 120%;
+}
+.four-wide .formulate-input[data-classification='select']
+select{
+    border-radius: 0.3em;
+    border:1px solid #d91657ed;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    font-size: 1em;
+    box-sizing: border-box;
+    width: 120%;
+}
+.four-wide .formulate-input[data-classification='date']
+input{
+    width: 200%;
+}
+.four-wide .rel .formulate-input[data-classification='select']
+select{
+    width:150%;
+}
+.four-wide_2 .formulate-input[data-classification='text'] input{
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    border: 1px solid #d91657ed;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    width: 120%;
+}
+.four-wide_2 .comm .formulate-input[data-classification='select']
+select{
+    border-radius: 0.3em;
+    border:1px solid #d91657ed;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    font-size: 1em;
+    box-sizing: border-box;
+    width: 165%;
+}
+.four-wide_3 .formulate-input[data-classification='text'] input{
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    border: 1px solid #d91657ed;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    width: 120%;
+}
+.four-wide_3 .formulate-input[data-classification='select']
+select{
+    border-radius: 0.3em;
+    border:1px solid #d91657ed;
+    padding: 0.4em 0.1em 0.4em 0.5em;
+    font-size: 1em;
+    box-sizing: border-box;
+    width: 126%;
+}
+
